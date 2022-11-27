@@ -1,0 +1,23 @@
+{
+    "name": "com.lurking-ninja.cheat-code.runtime",
+    "rootNamespace": "LurkingNinja",
+    "references": [
+        "Unity.InputSystem",
+        "com.lurking-ninja.player-loop.runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.lurkingninja.player-loop",
+            "expression": "",
+            "define": "LN_PLAYER_LOOP_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}
