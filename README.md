@@ -1,14 +1,26 @@
-# com.lurking-ninja.cheat-codes
+# Cheat Codes
 Building and listening to cheat codes typed or inputted by the users. This package requires Unity's InputSystem.
-Usage is fairly simple, but it has two ways, depending if you have installed the com.lurking-ninja.player-loop package. 
-
-### With com.lurking-ninja.player-loop package:
+## Installation
+You can choose manually installing the package or from GitHub source.
+### Add package from git URL
+Use the Package Manager's ```+/Add package from git URL``` function.
+The URL you should use is this:
+```
+https://github.com/LurkingNinja/com.lurking-ninja.cheat-codes.git?path=Packages/com.lurking-ninja.cheat-codes
+```
+### Manual install
+1. Download the latest ```.zip``` package from the [Release](https://github.com/LurkingNinja/com.lurking-ninja.cheat-codes/releases) section.
+2. Unpack the ```.zip``` file into your project's ```Packages``` folder.
+3. Open your project and check if it is imported properly.
+## Usage
+Usage is fairly simple, but it has two ways, depending if you have installed the [com.lurking-ninja.player-loop](https://github.com/LurkingNinja/com.lurking-ninja.player-loop) package.
+### With the Playerloop package:
 ```csharp
 using UnityEngine;
 
 namespace LurkingNinja.CheatCode.Samples
 {
-    public class PlayerLoopSample : MonoBehaviour
+    public class PlayerloopSample : MonoBehaviour
     {
         private void Awake() => new CheatCodes("iddqd", IddqdExecute);
 
@@ -19,7 +31,7 @@ namespace LurkingNinja.CheatCode.Samples
 ```
 This can be used without MonoBehaviour, obviously, this sample uses one just for the simplicity. You can also add additional codes to look for to the same CheatCodes objects by storing the object and executing additional TryAddCode method(s) on it. See Samples for details.
 
-### Without com.lurking-ninja.player-loop package:
+### Without the Playerloop package:
 ```csharp
 using UnityEngine;
 
