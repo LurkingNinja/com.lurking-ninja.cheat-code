@@ -1,3 +1,10 @@
+/***
+ * Cheat Codes
+ * Copyright (c) 2022-2024 Lurking Ninja.
+ *
+ * MIT License
+ * https://github.com/LurkingNinja/com.lurking-ninja.cheat-code
+ */
 using System.Text;
 using UnityEngine;
 using UnityEngine.InputSystem;

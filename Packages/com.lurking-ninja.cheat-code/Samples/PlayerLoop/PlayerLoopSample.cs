@@ -1,3 +1,10 @@
+/***
+ * Cheat Codes
+ * Copyright (c) 2022-2024 Lurking Ninja.
+ *
+ * MIT License
+ * https://github.com/LurkingNinja/com.lurking-ninja.cheat-code
+ */
 using UnityEngine;
 
 namespace LurkingNinja.CheatCode.Samples

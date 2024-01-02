@@ -1,18 +1,19 @@
 {
-  "name": "com.lurkingninja.cheat-code",
+  "name": "com.lurking-ninja.cheat-code",
   "displayName": "Cheat Code",
+  "description": "Creating cheat code combos and detecting user cheat code inputs.",
   "version": "1.0.0",
   "unity": "2021.3",
-  "description": "Creating cheat code combos and detecting user cheat code inputs.",
-  "documentationUrl": "https://lurking-ninja.com/",
+  "documentationUrl": "https://github.com/LurkingNinja/com.lurking-ninja.cheat-code",
+  "changelogUrl": "https://github.com/LurkingNinja/com.lurking-ninja.cheat-code/blob/main/CHANGELOG.md",
+  "license": "MIT",
+  "licensesUrl": "https://github.com/LurkingNinja/com.lurking-ninja.cheat-code/blob/main/LICENSE",
   "author": {
     "name": "Lurking Ninja",
     "email": "dev@lurking-ninja.com",
     "url": "https://lurking-ninja.com/"
   },
-  "unityRelease": "14f1",
-  "type": "library",
   "dependencies": {
-    "com.unity.inputsystem": ""
+    "com.unity.inputsystem": "1.0.0"
   }
 }
